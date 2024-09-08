@@ -22,6 +22,13 @@ experiência => base_experience
 
 EXTRA: se puder ordene por nome.
 
+# Minha assinatura
+
+Além de fazer o que foi pedido no desafio, também implementei um card 
+que é personalizado de acordo com o tipo de pokemon
+
+(Água, normal, fogo, inseto, grama)
+
 # Resultado visual de minha resolução
 
 ![Demonstração 1](/public/ImagemDemonstracao1.png)
