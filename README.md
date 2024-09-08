@@ -29,6 +29,10 @@ que é personalizado de acordo com o tipo de pokemon
 
 (Água, normal, fogo, inseto, grama)
 
+Também as cores de seus nomes mudam de acordo com sua raridade
+
+(Quantidade de experiência)
+
 # Resultado visual de minha resolução
 
 ![Demonstração 1](/public/ImagemDemonstracao1.png)
