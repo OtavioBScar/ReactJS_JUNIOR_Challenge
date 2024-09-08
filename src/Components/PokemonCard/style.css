@@ -1,7 +1,7 @@
 .container-card-pokemon {
     display: flex;
     flex-direction: column;
-    background: linear-gradient(to bottom, #939d8f, #5b6456);
+    background: linear-gradient(to bottom, #225244, #05c435ec);
     align-items: center;
     width: 300px;
     height: 300px;
@@ -17,4 +17,5 @@
 
 .container-card-pokemon:hover {
     transform: scale(1.05);
+    cursor: pointer;
 }

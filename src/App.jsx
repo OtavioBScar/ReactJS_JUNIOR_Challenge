@@ -39,8 +39,10 @@ function App() {
           const dataPokemon = {
             name: dataDetails.name,
             image: dataDetails.sprites.front_default,
-            experience: dataDetails.base_experience
+            experience: dataDetails.base_experience,
+            type: dataDetails.types[0].type.name
           }
+          console.log(dataDetails.types[0].type.name)
           pokemonsList.push(dataPokemon)
         }))
         const sortedList = pokemonsList.sort((a, b) => a.name.localeCompare(b.name))
@@ -61,7 +63,7 @@ function App() {
       <div className="card-container">
         {detailPokemons?.map((pokemon) => (
           <div className='card-wrapper' key={pokemon?.name}>
-            <PokemonCard name={pokemon?.name} experience={pokemon?.experience} image={pokemon?.image} />
+            <PokemonCard name={pokemon?.name} experience={pokemon?.experience} image={pokemon?.image} type={pokemon?.type} />
           </div>
         ))}
       </div>
