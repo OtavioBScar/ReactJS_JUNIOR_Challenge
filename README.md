@@ -21,3 +21,9 @@ imagem => sprites.front_default
 experiência => base_experience
 
 EXTRA: se puder ordene por nome.
+
+# Resultado visual de minha resolução
+
+![Demonstração 1](/public/ImagemDemonstracao1.png)
+![Demonstração 2](/public/ImagemDemonstracao2.png)
+![Demonstração 3](/public/ImagemDemonstracao3.png)
