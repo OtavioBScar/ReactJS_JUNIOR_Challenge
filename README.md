@@ -22,6 +22,7 @@ https://pokeapi.co/api/v2/pokemon/:id
 
 tip:
 image => sprites.front_default
+
 experience => base_experience
 
 EXTRA: if you can, order by name.
@@ -29,6 +30,7 @@ EXTRA: if you can, order by name.
 # My signature
 
 in addition to doing what was asked in the challenge, i also implemented a personalized card according to each pokemon's type
+
 (water, normal, fire, bug, grass)
 
 Besides that, their name colors switch based on their rarity
