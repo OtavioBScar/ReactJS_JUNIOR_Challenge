@@ -1,43 +1,41 @@
 # ReactJS Junior Challenge
 
 * My resolution
-* Site uploaded in Aws-S3-bucket
-```
-http://pokeapiconsumer.s3-website-sa-east-1.amazonaws.com/
-```
+### Site uploaded with Aws-S3-bucket
+
+* [pokeapiconsumer.com](http://pokeapiconsumer.s3-website-sa-east-1.amazonaws.com/)
+
 
 # Challenge
 
-Consuma a API e liste todos os pokemons da consulta do seguinte endpoint. 
+consume the following API and list all pokemons consulted
 https://pokeapi.co/api/v2/pokemon
 
-Você deve exibir, de cada pokémon:
-- imagem
-- nome
-- experiência
+from each pokemon, you must show:
+- image
+- name
+- experience
 
-Você pode acessar as informações de cada pokemón individualmente em:
+You can check each pokemon's info individually at:
 https://pokeapi.co/api/v2/pokemon/:id
 
 
-DICA:
-imagem => sprites.front_default
-experiência => base_experience
+tip:
+image => sprites.front_default
+experience => base_experience
 
-EXTRA: se puder ordene por nome.
+EXTRA: if you can, order by name.
 
-# Minha assinatura
+# My signature
 
-Além de fazer o que foi pedido no desafio, também implementei um card 
-que é personalizado de acordo com o tipo de pokemon
+in addition to doing what was asked in the challenge, i also implemented a personalized card according to each pokemon's type
+(water, normal, fire, bug, grass)
 
-(Água, normal, fogo, inseto, grama)
+Besides that, their name colors switch based on their rarity
 
-Também as cores de seus nomes mudam de acordo com sua raridade
+(Experience amount)
 
-(Quantidade de experiência)
-
-# Resultado visual de minha resolução
+# Visual result of my resolution
 
 ![Demonstração 1](/public/ImagemDemonstracao1.png)
 ![Demonstração 2](/public/ImagemDemonstracao2.png)
