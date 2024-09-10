@@ -1,6 +1,10 @@
 # ReactJS Junior Challenge
 
 * My resolution
+* Site uploaded no Aws-S3-bucket
+```
+http://pokeapiconsumer.s3-website-sa-east-1.amazonaws.com/
+```
 
 # Challenge
 
